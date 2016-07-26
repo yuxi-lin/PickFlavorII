@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99925C47A6894CA8C04DE8F3 /* Pods_PickFlavorII.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE1E7C22EE5252A7BDC604 /* Pods_PickFlavorII.framework */; };
 		C2AD4E281D47CB97003CEA36 /* PickFlavorII.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AD4E271D47CB97003CEA36 /* PickFlavorII.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2AD4E2F1D47CB97003CEA36 /* PickFlavorII.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AD4E241D47CB97003CEA36 /* PickFlavorII.framework */; };
 		C2AD4E341D47CB97003CEA36 /* PickFlavorIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E331D47CB97003CEA36 /* PickFlavorIITests.swift */; };
+		C2AD4E491D47CD2D003CEA36 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E481D47CD2D003CEA36 /* RGBAColorFromString.swift */; };
+		C2AD4E4C1D47CD40003CEA36 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E4A1D47CD40003CEA36 /* PickFlavorDataSource.swift */; };
+		C2AD4E4D1D47CD40003CEA36 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E4B1D47CD40003CEA36 /* PickFlavorViewController.swift */; };
+		C2AD4E511D47CD63003CEA36 /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E501D47CD63003CEA36 /* FlavorFactory.swift */; };
+		C2AD4E531D47CD6A003CEA36 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E521D47CD6A003CEA36 /* Flavor.swift */; };
+		C2AD4E621D47CDE5003CEA36 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E611D47CDE5003CEA36 /* IceCreamView.swift */; };
+		C2AD4E641D47CDF7003CEA36 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E631D47CDF7003CEA36 /* ScoopCell.swift */; };
+		C2AD4E661D47CE00003CEA36 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AD4E651D47CE00003CEA36 /* ScoopView.swift */; };
+		C2AD4E6C1D47CE4E003CEA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AD4E6B1D47CE4E003CEA36 /* Main.storyboard */; };
+		C2AD4E731D47CED4003CEA36 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2AD4E721D47CED4003CEA36 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B208045EFE923F3E98A2BCE /* Pods-PickFlavorII.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickFlavorII.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickFlavorII/Pods-PickFlavorII.release.xcconfig"; sourceTree = "<group>"; };
+		7E30BF6A12613A7FF9DA8A65 /* Pods-PickFlavorII.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickFlavorII.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickFlavorII/Pods-PickFlavorII.debug.xcconfig"; sourceTree = "<group>"; };
 		C2AD4E241D47CB97003CEA36 /* PickFlavorII.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickFlavorII.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AD4E271D47CB97003CEA36 /* PickFlavorII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickFlavorII.h; sourceTree = "<group>"; };
 		C2AD4E291D47CB97003CEA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AD4E2E1D47CB97003CEA36 /* PickFlavorIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickFlavorIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AD4E331D47CB97003CEA36 /* PickFlavorIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickFlavorIITests.swift; sourceTree = "<group>"; };
 		C2AD4E351D47CB97003CEA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AD4E481D47CD2D003CEA36 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGBAColorFromString.swift; path = Categories/RGBAColorFromString.swift; sourceTree = "<group>"; };
+		C2AD4E4A1D47CD40003CEA36 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		C2AD4E4B1D47CD40003CEA36 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		C2AD4E501D47CD63003CEA36 /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
+		C2AD4E521D47CD6A003CEA36 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		C2AD4E611D47CDE5003CEA36 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		C2AD4E631D47CDF7003CEA36 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		C2AD4E651D47CE00003CEA36 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		C2AD4E6B1D47CE4E003CEA36 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C2AD4E721D47CED4003CEA36 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		E2AE1E7C22EE5252A7BDC604 /* Pods_PickFlavorII.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickFlavorII.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99925C47A6894CA8C04DE8F3 /* Pods_PickFlavorII.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7437D7A5A711511038F06C85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E30BF6A12613A7FF9DA8A65 /* Pods-PickFlavorII.debug.xcconfig */,
+				1B208045EFE923F3E98A2BCE /* Pods-PickFlavorII.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C2AD4E1A1D47CB97003CEA36 = {
 			isa = PBXGroup;
 			children = (
 				C2AD4E261D47CB97003CEA36 /* PickFlavorII */,
 				C2AD4E321D47CB97003CEA36 /* PickFlavorIITests */,
 				C2AD4E251D47CB97003CEA36 /* Products */,
+				7437D7A5A711511038F06C85 /* Pods */,
+				D46FE17AABE27774886BFF21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +107,12 @@
 		C2AD4E261D47CB97003CEA36 /* PickFlavorII */ = {
 			isa = PBXGroup;
 			children = (
+				C2AD4E4E1D47CD44003CEA36 /* Categories */,
+				C2AD4E4F1D47CD53003CEA36 /* Controllers */,
+				C2AD4E6D1D47CE55003CEA36 /* Factories */,
+				C2AD4E6E1D47CE61003CEA36 /* Models */,
+				C2AD4E711D47CE82003CEA36 /* Views */,
+				C2AD4E741D47CEDF003CEA36 /* Resources */,
 				C2AD4E271D47CB97003CEA36 /* PickFlavorII.h */,
 				C2AD4E291D47CB97003CEA36 /* Info.plist */,
 			);
@@ -84,6 +126,82 @@
 				C2AD4E351D47CB97003CEA36 /* Info.plist */,
 			);
 			path = PickFlavorIITests;
+			sourceTree = "<group>";
+		};
+		C2AD4E4E1D47CD44003CEA36 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E481D47CD2D003CEA36 /* RGBAColorFromString.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C2AD4E4F1D47CD53003CEA36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E4A1D47CD40003CEA36 /* PickFlavorDataSource.swift */,
+				C2AD4E4B1D47CD40003CEA36 /* PickFlavorViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C2AD4E6D1D47CE55003CEA36 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E501D47CD63003CEA36 /* FlavorFactory.swift */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		C2AD4E6E1D47CE61003CEA36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E521D47CD6A003CEA36 /* Flavor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C2AD4E6F1D47CE6E003CEA36 /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E611D47CDE5003CEA36 /* IceCreamView.swift */,
+				C2AD4E631D47CDF7003CEA36 /* ScoopCell.swift */,
+				C2AD4E651D47CE00003CEA36 /* ScoopView.swift */,
+			);
+			name = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		C2AD4E701D47CE76003CEA36 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E6B1D47CE4E003CEA36 /* Main.storyboard */,
+			);
+			name = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		C2AD4E711D47CE82003CEA36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E6F1D47CE6E003CEA36 /* Ice Cream */,
+				C2AD4E701D47CE76003CEA36 /* Storyboards & Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C2AD4E741D47CEDF003CEA36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2AD4E721D47CED4003CEA36 /* background.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D46FE17AABE27774886BFF21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE1E7C22EE5252A7BDC604 /* Pods_PickFlavorII.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2AD4E381D47CB97003CEA36 /* Build configuration list for PBXNativeTarget "PickFlavorII" */;
 			buildPhases = (
+				FAA171760B239A27C4B6E28A /* 📦 Check Pods Manifest.lock */,
 				C2AD4E1F1D47CB97003CEA36 /* Sources */,
 				C2AD4E201D47CB97003CEA36 /* Frameworks */,
 				C2AD4E211D47CB97003CEA36 /* Headers */,
 				C2AD4E221D47CB97003CEA36 /* Resources */,
+				C57EC8237DE96075B7FDFC61 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AD4E6C1D47CE4E003CEA36 /* Main.storyboard in Resources */,
+				C2AD4E731D47CED4003CEA36 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +311,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C57EC8237DE96075B7FDFC61 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickFlavorII/Pods-PickFlavorII-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA171760B239A27C4B6E28A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2AD4E1F1D47CB97003CEA36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AD4E511D47CD63003CEA36 /* FlavorFactory.swift in Sources */,
+				C2AD4E661D47CE00003CEA36 /* ScoopView.swift in Sources */,
+				C2AD4E491D47CD2D003CEA36 /* RGBAColorFromString.swift in Sources */,
+				C2AD4E641D47CDF7003CEA36 /* ScoopCell.swift in Sources */,
+				C2AD4E531D47CD6A003CEA36 /* Flavor.swift in Sources */,
+				C2AD4E4C1D47CD40003CEA36 /* PickFlavorDataSource.swift in Sources */,
+				C2AD4E4D1D47CD40003CEA36 /* PickFlavorViewController.swift in Sources */,
+				C2AD4E621D47CDE5003CEA36 /* IceCreamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -297,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +472,9 @@
 		};
 		C2AD4E391D47CB97003CEA36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E30BF6A12613A7FF9DA8A65 /* Pods-PickFlavorII.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +485,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobileforming.PickFlavorII;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C2AD4E3A1D47CB97003CEA36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B208045EFE923F3E98A2BCE /* Pods-PickFlavorII.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -378,6 +546,7 @@
 				C2AD4E3A1D47CB97003CEA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2AD4E3B1D47CB97003CEA36 /* Build configuration list for PBXNativeTarget "PickFlavorIITests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +555,7 @@
 				C2AD4E3D1D47CB97003CEA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
